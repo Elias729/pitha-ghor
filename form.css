@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+     background: linear-gradient(135deg, #f0fbfc, #c8e8ee);
+    margin: 0;
+    padding: 20px;
+}
+
+.Hotel-Name {
+    text-align: center;
+    color: #fff;
+    /* হোয়াইট টেক্সট */
+    font-size: 2em;
+    margin-bottom: 30px;
+    border: 2px solid rgba(155, 152, 152, 0.6);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15),
+        0 6px 6px rgba(0, 0, 0, 0.10);
+    padding: 15px 20px;
+    font-family: monospace;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+
+    /* background: linear-gradient(135deg, #13aaaf, #0d7377);  /* Option 1 */
+    background-color: #0d7377;
+    /* Option 2 */
+
+    transition: all 0.3s ease;
+}
+
+.Hotel-Name:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2),
+        0 8px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+
+form .basic-info label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+    font-weight: 600;
+}
+
+form .basic-info {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgba(155, 152, 152, 0.6);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15),
+        0 6px 6px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+}
+
+form .basic-info legend {
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 20%;
+    color: rgb(0, 0, 0);
+
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form .basic-info input[type="text"],
+[type="email"],
+[type="number"],
+[type="date"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px auto;
+    border: #ccc 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f0f9f9;
+    /* হালকা হালকা সায়ান ব্যাকগ্রাউন্ড */
+    transition: background-color 0.3s ease;
+}
+
+form .basic-info input[type="text"]:focus,
+[type="email"]:focus,
+[type="number"]:focus,
+[type="date"]:focus {
+    border-color: #13aaaf;
+    outline: none;
+    background-color: #e0f7fa;
+}
+
+form .pitha-info {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgba(155, 152, 152, 0.6);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15),
+        0 6px 6px rgba(0, 0, 0, 0.10);
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(135deg, #ffffff, #d9f0f7);
+    border-radius: 15px;
+    color: #222;
+}
+
+form .pitha-info legend {
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 20%;
+    color: rgb(0, 0, 0);
+}
+
+form .pitha-info label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+form .pitha-info input[type="radio"] {
+    cursor: pointer;
+}
+
+form .vorta-info {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgba(155, 152, 152, 0.6);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15),
+        0 6px 6px rgba(0, 0, 0, 0.10);
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(135deg, #d7f3f7, #fffefc);
+    border-radius: 15px;
+    color: #222;
+}
+
+form .vorta-info legend {
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 20%;
+    color: rgb(0, 0, 0);
+}
+
+form .vorta-info label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-right: 60px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+form .extra-info {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgba(155, 152, 152, 0.6);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15),
+        0 6px 6px rgba(0, 0, 0, 0.10);
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(135deg, #f0fbfc, #c8e8ee);
+    border-radius: 15px;
+    color: #222;
+}
+
+form .extra-info legend {
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 20%;
+    color: rgb(0, 0, 0);
+}
+
+form .extra-info textarea {
+    width: 90%;
+
+    margin: 10px auto;
+    border: #ccc 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    ransition: background-color 0.3s ease;
+}
+
+form .extra-info textarea:focus {
+    border-color: #13aaaf;
+    outline: none;
+    background-color: #e0f7fa;
+}
+
+form .submit-btn {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 12px;
+    background-color: #13aaaf;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form .submit-btn:hover {
+    background-color: #0f8f8f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form .submit-btn:active {
+    background-color: #0d7a7a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form .reset-btn {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form .reset-btn:hover {
+    background-color: #e53935;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form .reset-btn:active {
+    background-color: #d32f2f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
